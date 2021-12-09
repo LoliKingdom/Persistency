@@ -224,7 +224,7 @@ public class Persistency implements IFMLLoadingPlugin {
             meta.modId = "persistency";
             meta.name = "Persistency";
             meta.description = "A Coremod + Library aiding persistency of data in minecraft modding and caching.";
-            meta.version = "1.1.0";
+            meta.version = "1.2.0";
             meta.logoFile = "/icon.png";
             meta.authorList.add("Rongmario");
         }
