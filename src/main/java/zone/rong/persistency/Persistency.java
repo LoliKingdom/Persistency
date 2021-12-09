@@ -100,7 +100,7 @@ public class Persistency implements IFMLLoadingPlugin {
 
         public static void afterBuildingModList() {
             LOGGER.info("Querying last minecraft load to see if most things are identical...");
-            File cachesFolder = new File(Launch.minecraftHome, "cache/caches");
+            File cachesFolder = new File(Launch.minecraftHome, "caches");
             cachesFolder.mkdirs();
             Launch.blackboard.put("CachesFolderFile", cachesFolder);
             File modsCache = new File(cachesFolder, "mods.bin");
